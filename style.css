@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom, #f8d4ff, #ffd6f5);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #ff00c8;
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 10px rgba(255, 0, 200, 0.2);
+}
+
+p {
+    font-size: 24px;
+    color: #c2185b;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.carrossel img {
+    width: 550px;       /* foto maior */
+    height: 380px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 5px solid #d63384;
+    box-shadow: 0 10px 25px rgba(123, 44, 191, 0.35);
+    transition: 0.4s;
+}
+
+.carrossel img:hover {
+    transform: scale(1.03);
+}
+
+button {
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #7b2cbf;
+    transform: scale(1.08);
+}
